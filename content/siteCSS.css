@@ -46,4 +46,9 @@ span.icon-bar{
 }
 
 /**/
+.mainSection{
+    background-image:url('../images/junkyard.jpg');
+    margin-top:0px;
+    background-size:cover;
+}
 
