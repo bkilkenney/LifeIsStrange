@@ -106,6 +106,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\siteCSS.css" />
+    <Content Include="images\junkyard.jpg" />
+    <Content Include="images\max7.png" />
+    <Content Include="images\maxresdefault.jpg" />
+    <Content Include="images\maxresdefault3.jpg" />
+    <Content Include="images\rsz_transparentlogo.png" />
+    <Content Include="index.html" />
     <Content Include="scripts\ai.0.22.19-build00125.js" />
     <Content Include="scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="Web.config" />
@@ -113,9 +120,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="images\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
